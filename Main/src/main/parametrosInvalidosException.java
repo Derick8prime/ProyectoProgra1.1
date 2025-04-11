@@ -1,0 +1,15 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package main;
+
+/**
+ *
+ * @author bachl
+ */
+public class parametrosInvalidosException extends Exception {
+    public parametrosInvalidosException(String mensaje) {
+        super(mensaje);
+    }
+}
